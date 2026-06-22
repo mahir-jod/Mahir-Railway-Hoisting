@@ -48,7 +48,7 @@ def init_db():
     )''')
     
     if not db.execute('SELECT * FROM admin_settings WHERE id=1').fetchone():
-        db.execute('INSERT INTO admin_settings (id, username, password) VALUES (1, "neverexits", "1100")')
+        db.execute('INSERT INTO admin_settings (id, username, password) VALUES (1, "MAHIR HOST", "MAHIR1100")')
     
     db.commit()
     db.close()
